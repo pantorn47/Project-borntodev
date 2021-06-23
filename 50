@@ -1,5 +1,5 @@
 number = int(input())
-tahw = number
+
 for x in range(number) :
 
-    print(" "*(tahw-x),"*"*(((x+1)*2)-1))
+    print(" "*(number-x),"*"*(((x+1)*2)-1))
